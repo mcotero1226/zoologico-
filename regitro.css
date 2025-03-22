@@ -1,0 +1,104 @@
+/* regitro.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://visitarmedellin.com/wp-content/uploads/2024/05/El-parque-de-la-Conservacion-08.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 30px;
+    border-width: 20px;
+}
+
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s;
+    color: #999;
+}
+
+.input:focus + span,
+.input:not(:placeholder-shown) + span {
+    top: -10px;
+    left: 50px;
+    font-size: 12px;
+    color: #007BFF;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.signin {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signin a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}

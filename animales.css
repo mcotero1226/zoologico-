@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url("https://www.elespectador.com/resizer/v2/K3QRL63MIZB3XMWZAKPHRPKSWY.jpg?auth=78af8a43d16dd69638dd59373349961675dd384c58f43e0531e27101787393a3&width=393&height=261&smart=true&quality=60");
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #b1c646;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: #026724;
+}
+
+table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 2px 4px 6px rgba(180, 11, 75, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+    
